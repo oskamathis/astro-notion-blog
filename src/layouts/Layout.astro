@@ -79,6 +79,12 @@ if (database.Icon && database.Icon.Type === 'file') {
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed"
+      title="OSKA's BLOG"
+    />
   </head>
   <body>
     <GoogleAnalytics trackingId={PUBLIC_GA_TRACKING_ID} />
@@ -127,6 +133,13 @@ if (database.Icon && database.Icon.Type === 'file') {
               </h1>
               <div class="description">
                 {database.Description}
+              </div>
+              <div>
+                <a href="https://github.com/oskamathis">GitHub</a> /
+                <a href="https://twitter.com/oskamathis">Twitter</a> /
+                <a href="https://qiita.com/oskamathis">Qiita</a> /
+                <a href="https://note.com/oskamathis">note</a> /
+                <a href="https://zenn.dev/oskamathis">Zenn</a>
               </div>
             </header>
 
